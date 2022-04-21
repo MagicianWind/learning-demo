@@ -3,34 +3,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.6</version>
+        <groupId>com.wind</groupId>
+        <artifactId>learning</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wind</groupId>
-    <artifactId>learning</artifactId>
+    <artifactId>minio-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>learning-demo</name>
-    <description>learning-demo</description>
+    <name>mino-demo</name>
+    <description>mino-demo</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>minio-demo</module>
-    </modules>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 

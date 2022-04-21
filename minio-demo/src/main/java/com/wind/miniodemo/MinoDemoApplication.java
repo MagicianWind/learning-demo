@@ -1,13 +1,13 @@
-package com.wind.learning;
+package com.wind.miniodemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LearningDemoApplication {
+public class MinoDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LearningDemoApplication.class, args);
+        SpringApplication.run(MinoDemoApplication.class, args);
     }
 
 }

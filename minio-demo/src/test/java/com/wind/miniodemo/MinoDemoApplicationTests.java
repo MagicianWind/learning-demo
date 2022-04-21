@@ -1,10 +1,10 @@
-package com.wind.learning;
+package com.wind.miniodemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LearningDemoApplicationTests {
+class MinoDemoApplicationTests {
 
     @Test
     void contextLoads() {
