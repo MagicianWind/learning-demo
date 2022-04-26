@@ -1,4 +1,4 @@
-package com.wind.miniodemo.config;
+package com.wind.demo.minio.config;
 
 import io.minio.MinioClient;
 import org.springframework.context.annotation.Bean;

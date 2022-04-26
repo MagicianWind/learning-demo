@@ -1,4 +1,4 @@
-package com.wind.miniodemo.util;
+package com.wind.demo.minio.util;
 
 import io.minio.*;
 import io.minio.errors.*;

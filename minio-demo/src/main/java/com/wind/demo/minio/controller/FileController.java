@@ -1,6 +1,6 @@
-package com.wind.miniodemo.controller;
+package com.wind.demo.minio.controller;
 
-import com.wind.miniodemo.util.MinioTemplate;
+import com.wind.demo.minio.util.MinioTemplate;
 import io.minio.errors.*;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
